@@ -1,1 +1,1 @@
-
+const {A:createNewTag,B:loadTags,C:availibleTags}={A(a,b){document.querySelectorAll(a).forEach(b)},B(a){for(let i of a){if(!this.C[i]){throw new DOMException("EDOM:Bad tag name.")}else{this.A(i,this.C[i])}}},C:{}}
